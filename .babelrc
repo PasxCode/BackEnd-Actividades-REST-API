@@ -1,0 +1,5 @@
+// este fichero le dice a babel q tiene q hacer.
+{
+    "presets": ["@babel/preset-env"] //este preset va a leer el código js de ultima generacion y convertirlo para
+                                    // que lo entiendan navegadores mas antiguos
+}

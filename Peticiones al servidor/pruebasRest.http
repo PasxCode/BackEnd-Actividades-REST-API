@@ -1,0 +1,32 @@
+
+# Para ejecutar las siguientes reques se necesita la extension REST CLIENT  en Visual Studio Code.
+
+###
+GET http://localhost:3001/actividades
+
+###
+GET http://localhost:3001/actividades/count
+
+###
+GET http://localhost:3001/actividades/2
+
+###
+POST http://localhost:3001/actividades
+Content-Type: application/json
+
+{
+    "titulo": " a",
+    "descripcion": "aaaaaaa."
+}
+
+###
+DELETE  http://localhost:3001/actividades/2
+
+###
+PUT  http://localhost:3001/actividades/1
+Content-Type: application/json
+
+{
+    "titulo": "tarea Actualizada"
+}
+
